@@ -1,0 +1,13 @@
+// 🎨 Suas variáveis personalizadas
+$primary: #218f00;
+$secondary: #e0e0e0;
+$dark: #212121;
+$warning: #757575;
+
+// ✅ Importa o Bootstrap com as variáveis personalizadas
+@use "../../node_modules/bootstrap/scss/bootstrap" with (
+  $primary: $primary,
+  $secondary: $secondary,
+  $dark: $dark,
+  $warning: $warning
+);

@@ -1,0 +1,58 @@
+<!-- sidebar -->
+<div class="d-flex flex-column p-4 text-bg-dark" style="height: 100%;" >
+    <a href="/admin" class="d-flex align-items-center text-secondary text-decoration-none">
+        <span class="fs-4">Escola Dashboard</span>
+    </a>
+    <hr>
+    <ul class="nav flex-column mb-auto">
+        <li class="nav-item">
+            <a href="/admin" class="nav-link active text-secondary">
+                Home
+            </a>
+        </li>
+
+        <div class="dropdown nav-link text-secondary">
+            <span href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Cadastros
+            </span>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="/admin/create/user">Cursos</a></li>
+                <li><a class="dropdown-item" href="/admin/create/driver">Disciplinas</a></li>
+                <li><a class="dropdown-item" href="/admin/create/route">Alunos</a></li>
+                <li><a class="dropdown-item" href="/admin/create/bus">Professores</a></li>
+                <li><a class="dropdown-item" href="/admin/create/func">Turmas</a></li>
+            </ul>
+        </div>
+        <div class="dropdown nav-link text-secondary">
+            <span href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ações
+            </span>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="/admin/create/user">Atribuir Matrícula/Aluno</a></li>
+                <li><a class="dropdown-item" href="/admin/create/driver">Atribuir Disciplina/Curso</a></li>
+                <li><a class="dropdown-item" href="/admin/create/route">Atribuir Professor/Disciplina</a></li>
+                <li><a class="dropdown-item" href="/admin/create/bus">Atribuir Nota</a></li>
+                <li><a class="dropdown-item" href="/admin/create/func">Turmas</a></li>
+            </ul>
+        </div>
+        <div class="dropdown nav-link text-secondary">
+            <span href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Listas
+            </span>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="/admin/get/users">Usuários</a></li>
+                <li><a class="dropdown-item" href="/admin/get/cards">Cartões</a></li>
+                <li><a class="dropdown-item" href="/admin/get/drivers">Motoristas</a></li>
+                <li><a class="dropdown-item" href="/admin/get/routes">Linhas</a></li>
+                <li><a class="dropdown-item" href="/admin/get/bus">Ônibus</a></li>
+                <li><a class="dropdown-item" href="/admin/get/funcs">Funcionários</a></li>
+                <li><a class="dropdown-item" href="/admin/get/users">Viagens</a></li>
+            </ul>
+        </div>
+    </ul>
+</div>
+
+
